@@ -1,7 +1,7 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: terrabutler-template
+  name: template-terrabutler
   title: Terrabutler Template for AWS
   description: A terrabutler template for deploy AWS backend based projects
 spec:

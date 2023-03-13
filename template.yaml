@@ -20,6 +20,9 @@ spec:
           ui:options:
             allowedHosts:
               - github.com
+            allowedOwners:
+              - montblu
+
             # The rest of these options are optional.
             # You can read more at: https://backstage.io/docs/reference/plugin-scaffolder.repourlpickerfieldextension
             # allowedOwners:

@@ -1,7 +1,7 @@
 environments:
   default:
     domain: ${{values.domain_var}}
-    name: env_var
+    name: ${{values.environment_var}}
     profile_name: ${{values.organization_var}}-${{values.environment_var}}
     region: ${{values.region_var}}
   permanent:

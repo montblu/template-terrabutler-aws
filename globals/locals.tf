@@ -12,7 +12,7 @@ locals {
 
   aws_default_tags = {
     ManagedByTerraform = "yes"
-    Billing            = "example"
+    Billing            = var.organization
     TerraformWorkspace = terraform.workspace
     Environment        = var.environment
   }

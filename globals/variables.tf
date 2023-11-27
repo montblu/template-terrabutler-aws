@@ -23,6 +23,11 @@ variable "subnets_public_vpc" {
   description = "The list of public subnets for the VPC"
 }
 
+variable "subnets_private_vpc" {
+  type        = list(string)
+  description = "The list of private subnets for the VPC"
+}
+
 variable "vpc_cidr" {
   type = string
 }

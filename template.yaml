@@ -82,7 +82,7 @@ spec:
       name: Fetch Base
       action: fetch:template
       input:
-        url: ./catalogs/terrabutler-aws-template/
+        url: https://github.com/montblu/template-terrabutler-aws/tree/main/catalogs/terrabutler-aws-template
         targetPath: ./catalogs/terrabutler-aws-template/
         values:
           name: ${{ parameters.name }}
@@ -91,7 +91,7 @@ spec:
       name: Fetch Project Files
       action: fetch:template
       input:
-        url: ./
+        url: https://github.com/montblu/template-terrabutler-aws
         values:
           region_var: ${{ parameters.region_var }}
           organization_var: ${{ parameters.organization_var }}

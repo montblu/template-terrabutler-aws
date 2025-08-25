@@ -1,6 +1,7 @@
 module "backends" {
 
-  source = "git@github.com:montblu/my_inception.git?ref=4.1.0"
+  source = "montblu/inception/aws"
+  version = "4.1.0"
 
   for_each = var.include_inception_project ? toset(concat(var.inception_projects, ["inception"])) : toset(var.inception_projects)
 
